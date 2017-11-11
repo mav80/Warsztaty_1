@@ -45,18 +45,18 @@ public class Zadanie1GraWZgadywanieLiczb {
 		@SuppressWarnings("resource")
 		Scanner myScanner = new Scanner(System.in);
 
-		int randomNumber = 0;
+		int number = 0;
 
 		System.out.println("Wpisz liczbę: ");
 
 		try {
-			randomNumber = myScanner.nextInt();
+			number = myScanner.nextInt();
 		} catch (Exception e) {
 			System.out.println("To nie jest liczba!");
-			randomNumber = getNumberFromConsole();
+			number = getNumberFromConsole();
 		}
 
-		return randomNumber;
+		return number;
 	}
 	
 	
