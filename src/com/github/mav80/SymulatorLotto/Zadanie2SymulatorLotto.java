@@ -123,7 +123,7 @@ public class Zadanie2SymulatorLotto {
 
 	static int getRandomNumber(int lowerLimit, int upperLimit) {
 		Random generator = new Random();
-		return generator.nextInt(upperLimit - lowerLimit) + lowerLimit;
+		return generator.nextInt(upperLimit - lowerLimit + 1) + lowerLimit;
 	}
 	
 	

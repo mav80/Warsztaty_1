@@ -66,7 +66,7 @@ public class Zadanie1GraWZgadywanieLiczb {
 		
 		Random generator = new Random();
 
-		return generator.nextInt(upperLimit - lowerLimit) + lowerLimit;
+		return generator.nextInt(upperLimit - lowerLimit + 1) + lowerLimit;
 			
 	}	
 
